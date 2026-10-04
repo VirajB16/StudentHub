@@ -1,0 +1,9 @@
+.exams-page { padding-bottom: 24px; }
+.exams-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.exam-card { background: white; padding: 20px; border-radius: var(--radius); box-shadow: var(--shadow-sm); }
+.exam-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
+.exam-header h3 { margin: 0; font-size: 1.2rem; }
+.days-left { background: #d1fae5; color: var(--success); padding: 4px 10px; border-radius: 12px; font-size: 0.85rem; font-weight: 600; }
+.days-left.urgent { background: #fee2e2; color: var(--danger); }
+.exam-details { display: flex; flex-direction: column; gap: 12px; }
+.detail-item { display: flex; align-items: center; gap: 8px; color: var(--text-light); font-size: 0.95rem; }

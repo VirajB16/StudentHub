@@ -1,0 +1,37 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--background);
+}
+
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Desktop styles */
+@media (min-width: 769px) {
+  .main-area {
+    margin-left: var(--sidebar-width);
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .main-area {
+    margin-left: 0;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+}

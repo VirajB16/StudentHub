@@ -1,0 +1,11 @@
+.timetable-page { padding-bottom: 24px; }
+.timetable-container { background: white; border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow-x: auto; }
+.timetable-table { width: 100%; border-collapse: collapse; min-width: 600px; }
+.timetable-table th, .timetable-table td { border: 1px solid var(--border); padding: 12px; text-align: center; }
+.timetable-table th { background: var(--bg); font-weight: 600; color: var(--text-dark); }
+.time-col { font-weight: 500; white-space: nowrap; }
+.current-day-col { background-color: rgba(79, 70, 229, 0.05); }
+.class-block { background: var(--primary-light); color: var(--primary); padding: 8px; border-radius: 4px; font-size: 0.9rem; }
+.class-subject { font-weight: 600; margin-bottom: 4px; }
+.class-room { font-size: 0.8rem; opacity: 0.8; }
+.free-period { color: var(--text-light); }
