@@ -116,15 +116,3 @@ StudentHub/
 
 ---
 
-## 🎤 Professor / Examiner Demonstration Walkthrough
-
-1. **Login**: Show the clean login form. Type `arjun@university.edu` and click **Login**.
-2. **Dashboard Overview**: Explain the 6 academic widgets built using modular React components.
-3. **Customization Demonstration**:
-   - Grab any card header (e.g. *Today's Tasks* or *Attendance*) and drag it to a new location.
-   - Resize any card using the bottom-right handle.
-   - Refresh the page to show **persistence** in `localStorage`.
-   - Click **Customize** (or navigate to **Settings**), toggle off a widget (e.g., *Notices*), and return to Dashboard to show dynamic visibility.
-   - Click **Reset Dashboard Layout** to restore the default view.
-4. **Tasks CRUD**: Navigate to **Tasks**, add a new task, toggle it as completed, and delete an item.
-5. **Postman API Test**: Open Postman, import `StudentHub_Postman_Collection.json`, and run requests against `http://localhost:5000` to show REST API compliance.
